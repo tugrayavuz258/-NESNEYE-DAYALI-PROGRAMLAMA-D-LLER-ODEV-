@@ -18,8 +18,8 @@
 
 Dependency Injection (DI), nesneye dayalı tasarımda sınıflar arasındaki bağımlılığı
 azaltmak için kullanılan temel bir mekanizmadır ve SOLID prensiplerinden
-**Dependency Inversion Principle (DIP)** ile doğrudan ilişkilidir. Spring (Java) ve
-ASP.NET Core (C#) gibi modern framework'lerin temelinde yer alır.
+**Dependency Inversion Principle (DIP)** ile doğrudan ilişkilidir. Java'da Spring ve
+Guice, C#'ta .NET'in DI kütüphanesi gibi araçların temelinde yer alır.
 
 Makale, DI'nin **yanlış** kullanıldığı durumları (anti-pattern) sistematik olarak
 kataloglayan ve bunların gerçek projelerde ne sıklıkla görüldüğünü ölçen ampirik bir
@@ -39,7 +39,7 @@ Rapor, ders kapsamında belirlenen yapıyı izleyecektir:
 7. Kaynakça
 
 **Ek katkı:** Makale Java (Spring, Guice) üzerinde çalışmaktadır. Bu incelemede
-seçilen anti-pattern'ler **C# / ASP.NET Core** ortamında örneklenecek; her biri için
+seçilen anti-pattern'ler **C# konsol uygulaması** ile örneklenecek; her biri için
 hatalı ve düzeltilmiş kod ile birlikte birim testleri (xUnit) hazırlanacaktır.
 
 ## Klasör Yapısı (planlanan)
@@ -54,7 +54,8 @@ sunum/    → sunum dosyası
 ## Durum
 
 - [x] Makale seçimi ve repo kurulumu
-- [ ] Makale okuma notları
+- [x] Makale okuma notları: giriş, arka plan ve temel kavramlar
+- [ ] Makale okuma notları: anti-pattern kataloğu
 - [ ] Rapor bölümleri
 - [ ] C# örnekleri ve testler
 - [ ] Sunum

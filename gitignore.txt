@@ -1,0 +1,18 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# İndirilen makale PDF'lerini repoya koymuyoruz (rapor ve sunum PDF'leri hariç)
+*.pdf
+!sunum/*.pdf
+!rapor/*.pdf
